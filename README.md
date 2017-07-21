@@ -1,4 +1,6 @@
-# AngularKM
+# angular-KM
+
+##Repository to show-case the Angular Demo Application
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.2.
 
