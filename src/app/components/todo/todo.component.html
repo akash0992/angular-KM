@@ -1,0 +1,11 @@
+<div class="todo">
+  <div>Name: {{ todo.name }}</div>
+  <div>Status: {{ todo.status }}</div>
+  <div *ngIf="!visible">
+    <button (click)="toggle()">Show description</button>
+  </div>
+  <div *ngIf="visible">
+    <app-todo-details [description]='todo.description'></app-todo-details>
+    <button (click)="toggle()">Hide description</button>
+  </div>
+</div>
