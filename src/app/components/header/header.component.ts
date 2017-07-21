@@ -14,15 +14,15 @@ export class HeaderComponent implements OnInit {
   change: EventEmitter<any> = new EventEmitter<any>();
 
   constructor() {
-    // console.log("1 :: constructor :: ", this.componentType);
+    console.log("1 :: constructor :: ", this.componentType);
   }
 
   ngOnInit() {
-    // console.log("2 :: ngOnInit :: ", this.componentType);
-    /*if (this.componentType == 'Footer') {
+    console.log("2 :: ngOnInit :: ", this.componentType);
+    if (this.componentType == 'Footer') {
       //Navigation
       this.navigation = [{name:"home",route:''},{name:"client",route:''},{name:"service",route:''},{name:"contact",route:''},{name:"faq",route:''}];
-    }*/
+    }
   }
 
   linkClick(item){
