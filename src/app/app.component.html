@@ -1,7 +1,7 @@
 <app-header (change)="selectedPage($event)"  [componentType]="'Header'" [navigation]="headerData"></app-header>
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center; height:calc(100vh - 208px); padding: 20px">
-  <app-main-view [selected]="page"></app-main-view>
+<div style="text-align:center; height:calc(100vh - 208px); padding: 20px; overflow: auto">
+  <app-main-view [selected]="page" [someString]=" 'This is a Demo' "></app-main-view>
 </div>
 <app-header (change)="selectedPage($event)"  [componentType]="'Footer'" [navigation]="footerData"></app-header>
 
