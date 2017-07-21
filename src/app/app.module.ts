@@ -11,6 +11,7 @@ import { TodoDetailsComponent } from './components/todo-details/todo-details.com
 import { TodoComponent } from './components/todo/todo.component';
 import {TodoService} from './services/todo.service';
 import { CounterComponent } from './components/counter/counter.component';
+import { OrderByPipe } from './pipes/order-by.pipe';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { CounterComponent } from './components/counter/counter.component';
     TodoDetailsComponent,
     TodoComponent,
     CounterComponent,
+    OrderByPipe,
   ],
   imports: [
     BrowserModule,
