@@ -1,0 +1,11 @@
+<header>
+  <h1 class="pull-xs-left">{{componentType}}</h1>
+
+  <nav class="pull-xs-right">
+    <ul>
+      <li *ngFor="let item of navigation">
+        <a href="#" (click)="linkClick(item)">{{item.name}}</a>
+      </li>
+    </ul>
+  </nav>
+</header>

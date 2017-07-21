@@ -1,0 +1,18 @@
+
+header{
+  padding: 20px 20px;
+  background: #616161;
+  overflow: hidden;
+}
+ul li{
+  list-style: none;
+  float: left;
+  padding: 20px;
+}
+h1,a{
+  color: rgba(8, 11, 21, 0.92);
+  display: inline-block;
+}
+nav{
+  display: inline-block;
+}
